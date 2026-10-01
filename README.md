@@ -179,7 +179,7 @@ flowchart TD
 ## Project Structure
 
 ```text
-AI-Powered Knowledge Search-document-assistant/
+AI-Powered-Knowledge-Search/
 ├── backend/
 │   ├── app/
 │   │   ├── api/
@@ -299,8 +299,6 @@ Create `frontend/.env.local` for the Next.js client:
 ```env
 NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 ```
-
-> Never commit real API keys. Keep `backend/.env` and `frontend/.env.local` out of version control.
 
 ---
 
