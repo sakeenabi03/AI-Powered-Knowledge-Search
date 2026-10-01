@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+venv/
+
+# Editors / IDEs
+.idea/
+.vscode/
+.cursor/
+
+# Runtime data
+data/uploads/*
+data/vector_store/*
+
+# Local Sentence Transformers model cache (downloaded separately)
+backend/models/**
+!backend/models/.gitkeep
+
+*.db
+*.sqlite3
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-shm
+backend/data/*.db-wal
+data/*.db
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / typing
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+dist/
+build/
